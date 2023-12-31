@@ -1,7 +1,28 @@
 {
   "name": "scrollreveal",
   "version": "0.1.0",
-  "private": true,
+  "description": "The Reveal Animation component provides an elegant way to enhance your website's user experience by gradually revealing content as users scroll through the page. By utilizing CSS animations and the Material-UI framework, the component adds a touch of professionalism to your web application.",
+  "private": false,
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamabhshk/scroll-reveal.git"
+  },
+  "keywords": [
+    "scrollreveal"
+  ],
+  "author": "Abhishek Srinivasan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamabhshk/scroll-reveal/issues"
+  },
+  "homepage": "https://github.com/iamabhshk/scroll-reveal",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -14,12 +35,6 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
